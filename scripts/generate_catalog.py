@@ -62,7 +62,8 @@ def build_catalog_tables():
                 continue
 
             name        = meta.get("name", filename.replace(".md", ""))
-            description = str(meta.get("description", "")).strip().replace("\n", " ")
+            desc_full = str(meta.get("description", "")).strip().replace("\n", " ")
+            description = (desc_full[:150] + "...") if len(desc_full) > 150 else desc_full
             roles       = meta.get("relevant_roles", [])
             owner       = meta.get("owner", "—")
             rel_path    = f"./{filepath}"
