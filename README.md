@@ -38,7 +38,7 @@ A shared library of Claude skill files for reuse across teams. Browse the catalo
 
 | Skill | Description | Relevant Roles | Owner |
 |-------|-------------|---------------|-------|
-| [tr-brand-guidelines](./skills/brand/tr-brand-guidelines.md) | Enforces Thomson Reuters brand guidelines — Clario typeface, official color palette, and visual style rules — across HTML, React, Word (.docx), and PowerPoint (.pptx) artifacts. | #design #marketing #product | @MaryCampoTR |
+| [tr-brand-guidelines](./skills/brand/tr-brand-guidelines.md) | Enforces Thomson Reuters brand guidelines — Clario typeface, official color palette, and visual style rules — across HTML, React, Word (.docx), and PowerPoint (.pptx) artifacts. | #design #marketing #product | @BrittanyDiCosimoTR |
 
 ### 📝 Content
 
