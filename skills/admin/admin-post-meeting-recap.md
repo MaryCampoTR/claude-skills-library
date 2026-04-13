@@ -8,7 +8,11 @@ description: >
   summary", "send a follow-up for", "document the outcomes", "write up what we decided".
 version: 1.0.0
 updated: 2026-04-13
-relevant_roles: [design, product, engineering, strategy]
+relevant_roles:
+  - design
+  - product
+  - engineering
+  - strategy
 owner: "@MaryCampoTR"
 ---
 

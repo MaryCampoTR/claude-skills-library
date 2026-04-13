@@ -10,7 +10,9 @@ description: >
   mixed materials and wants design requirements as output.
 version: 1.0.0
 updated: 2026-04-13
-relevant_roles: [design, product]
+relevant_roles:
+  - design
+  - product
 owner: "@MaryCampoTR"
 ---
 

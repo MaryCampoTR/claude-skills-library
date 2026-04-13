@@ -9,7 +9,9 @@ description: >
   this for accessibility", "polish this component".
 version: 1.0.0
 updated: 2026-04-13
-relevant_roles: [design, engineering]
+relevant_roles:
+  - design
+  - engineering
 owner: "@MaryCampoTR"
 ---
 
