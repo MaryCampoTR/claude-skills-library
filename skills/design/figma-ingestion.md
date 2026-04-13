@@ -9,6 +9,10 @@ description: >
   ux-requirements-synthesizer skill.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - engineering
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: Figma Ingestion — Screenshot-Only Visual Analysis

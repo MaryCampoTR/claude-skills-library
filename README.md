@@ -31,38 +31,38 @@ A shared library of Claude skill files for reuse across teams. Browse the catalo
 
 | Skill | Description | Relevant Roles | Owner |
 |-------|-------------|---------------|-------|
-| [agentic-ai-ux](./skills/design/agentic-ai-ux.md) | Apply Human-AI agent interaction UX principles to any feature spec or v0 prompt that involves AI-generated content, AI recommendations, automated acti... |  | — |
-| [figma-ingestion](./skills/design/figma-ingestion.md) | Extract accurate component specifications from Figma screenshots (no MCP, no Dev Mode required). Use whenever the user shares a Figma screenshot, expo... |  | — |
-| [frontend-design](./skills/design/frontend-design.md) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, a... |  | — |
-| [saffron-master](./skills/design/saffron-master.md) | Master Saffron Design System reference skill for Thomson Reuters. Authoritative source for tokens, components, visual patterns, and implementation gui... |  | — |
-| [ui-designer](./skills/design/ui-designer.md) | Expert visual design craft, UI systems, and pixel-perfect implementation. Activates when building, styling, reviewing, or polishing any interface -- w... |  | — |
-| [ux-designer](./skills/design/ux-designer.md) | Expert UX design thinking, user psychology, and experience strategy. Activates when building, reviewing, or discussing any user-facing interface -- we... |  | — |
+| [agentic-ai-ux](./skills/design/agentic-ai-ux.md) | Apply Human-AI agent interaction UX principles to any feature spec or v0 prompt that involves AI-generated content, AI recommendations, automated acti... | #design #product | @MaryCampoTR |
+| [figma-ingestion](./skills/design/figma-ingestion.md) | Extract accurate component specifications from Figma screenshots (no MCP, no Dev Mode required). Use whenever the user shares a Figma screenshot, expo... | #design #engineering | @MaryCampoTR |
+| [frontend-design](./skills/design/frontend-design.md) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, a... | #design #engineering | @MaryCampoTR |
+| [saffron-master](./skills/design/saffron-master.md) | Master Saffron Design System reference skill for Thomson Reuters. Authoritative source for tokens, components, visual patterns, and implementation gui... | #design #engineering | @MaryCampoTR |
+| [ui-designer](./skills/design/ui-designer.md) | Expert visual design craft, UI systems, and pixel-perfect implementation. Activates when building, styling, reviewing, or polishing any interface -- w... | #design | @MaryCampoTR |
+| [ux-designer](./skills/design/ux-designer.md) | Expert UX design thinking, user psychology, and experience strategy. Activates when building, reviewing, or discussing any user-facing interface -- we... | #design #product | @MaryCampoTR |
 
 ### 📋 Requirements
 
 | Skill | Description | Relevant Roles | Owner |
 |-------|-------------|---------------|-------|
-| [ado-story-parser](./skills/requirements/ado-story-parser.md) | Normalise Azure DevOps (ADO) work items of varying quality into the ux-requirements-synthesizer intake schema. Use whenever the user provides an ADO w... |  | — |
-| [session-kickoff](./skills/requirements/session-kickoff.md) | Automatically orchestrates a full UX requirements session. Load this skill whenever a user provides any combination of feature context, meeting transc... |  | — |
-| [spec-qa](./skills/requirements/spec-qa.md) | Final quality gate for any UX requirements spec before it is handed off to v0, a stakeholder, or a development team. Run after ux-requirements-synthes... |  | — |
-| [transcript-parser](./skills/requirements/transcript-parser.md) | Parse and structure messy meeting transcripts into clean, synthesizer-ready intent signals. Use whenever the user provides a meeting transcript, call ... |  | — |
-| [user-context](./skills/requirements/user-context.md) | Capture and apply user context (persona, role, domain, sophistication level, task environment) before synthesizing requirements. Use at the start of a... |  | — |
-| [ux-design-principles](./skills/requirements/ux-design-principles.md) | Apply Staff Product Designer thinking to any UX requirements spec or v0 prompt. Use on every feature spec to ensure outputs reflect senior design judg... |  | — |
-| [ux-requirements-synthesizer](./skills/requirements/ux-requirements-synthesizer.md) | Transform piecemeal UX inputs (meeting transcripts, half-baked user stories, design artifacts) into complete, v0-ready requirement specs using Saffron... |  | — |
-| [v0-prompt-patterns](./skills/requirements/v0-prompt-patterns.md) | A pattern library of proven v0 prompt structures for common Saffron screen archetypes. Use when writing the v0 prompt section of a requirements spec, ... |  | — |
-| [v0-refinement](./skills/requirements/v0-refinement.md) | Diagnose v0 prototype output that missed the mark and produce targeted refinement prompts. Use when v0 has generated a prototype that is incomplete, i... |  | — |
+| [ado-story-parser](./skills/requirements/ado-story-parser.md) | Normalise Azure DevOps (ADO) work items of varying quality into the ux-requirements-synthesizer intake schema. Use whenever the user provides an ADO w... | #design #product #engineering | @MaryCampoTR |
+| [session-kickoff](./skills/requirements/session-kickoff.md) | Automatically orchestrates a full UX requirements session. Load this skill whenever a user provides any combination of feature context, meeting transc... | #design #product | @MaryCampoTR |
+| [spec-qa](./skills/requirements/spec-qa.md) | Final quality gate for any UX requirements spec before it is handed off to v0, a stakeholder, or a development team. Run after ux-requirements-synthes... | #design #product #engineering | @MaryCampoTR |
+| [transcript-parser](./skills/requirements/transcript-parser.md) | Parse and structure messy meeting transcripts into clean, synthesizer-ready intent signals. Use whenever the user provides a meeting transcript, call ... | #design #product #strategy | @MaryCampoTR |
+| [user-context](./skills/requirements/user-context.md) | Capture and apply user context (persona, role, domain, sophistication level, task environment) before synthesizing requirements. Use at the start of a... | #design #product | @MaryCampoTR |
+| [ux-design-principles](./skills/requirements/ux-design-principles.md) | Apply Staff Product Designer thinking to any UX requirements spec or v0 prompt. Use on every feature spec to ensure outputs reflect senior design judg... | #design | @MaryCampoTR |
+| [ux-requirements-synthesizer](./skills/requirements/ux-requirements-synthesizer.md) | Transform piecemeal UX inputs (meeting transcripts, half-baked user stories, design artifacts) into complete, v0-ready requirement specs using Saffron... | #design #product | @MaryCampoTR |
+| [v0-prompt-patterns](./skills/requirements/v0-prompt-patterns.md) | A pattern library of proven v0 prompt structures for common Saffron screen archetypes. Use when writing the v0 prompt section of a requirements spec, ... | #design #engineering | @MaryCampoTR |
+| [v0-refinement](./skills/requirements/v0-refinement.md) | Diagnose v0 prototype output that missed the mark and produce targeted refinement prompts. Use when v0 has generated a prototype that is incomplete, i... | #design #engineering | @MaryCampoTR |
 
 ### 🏢 Brand
 
 | Skill | Description | Relevant Roles | Owner |
 |-------|-------------|---------------|-------|
-| [tr-brand-guidelines](./skills/brand/tr-brand-guidelines.md) | Enforces Thomson Reuters (TR) brand guidelines—Clario typeface, official color palette, and visual style rules—in all generated artifacts. Use this sk... |  | — |
+| [tr-brand-guidelines](./skills/brand/tr-brand-guidelines.md) | Enforces Thomson Reuters (TR) brand guidelines—Clario typeface, official color palette, and visual style rules—in all generated artifacts. Use this sk... | #design #marketing #product | @BrittanyDiCosimoTR |
 
 ### 📝 Content
 
 | Skill | Description | Relevant Roles | Owner |
 |-------|-------------|---------------|-------|
-| [case-study](./skills/content/case-study.md) | Use this skill whenever a user wants to create a UX or design case study document. Triggers include: mentions of 'case study', 'design case study', 'U... |  | — |
+| [case-study](./skills/content/case-study.md) | Use this skill whenever a user wants to create a UX or design case study document. Triggers include: mentions of 'case study', 'design case study', 'U... | #design #product #strategy | @MaryCampoTR |
 
 <!-- CATALOG_END -->
 

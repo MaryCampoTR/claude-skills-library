@@ -10,6 +10,10 @@ description: >
   (token dictionary v1.0.0, baseline component library 3.20.0).
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - engineering
+owner: "@MaryCampoTR"
 ---
 
 # Saffron Design System — Master Skill

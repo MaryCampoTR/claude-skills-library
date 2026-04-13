@@ -2,6 +2,11 @@
 name: tr-brand-guidelines
 description: >
   Enforces Thomson Reuters (TR) brand guidelines—Clario typeface, official color palette, and visual style rules—in all generated artifacts. Use this skill whenever the user says "use TR branding," "apply TR brand guidelines," "make it on-brand," "TR style," or any similar phrasing. Also apply when the user asks for a dashboard, report, visualization, chart, HTML page, React component, Word document, .docx file, presentation, slide deck, or .pptx file and mentions TR, Thomson Reuters, or work context where TR branding would be expected. This skill covers HTML/CSS pages, React components, data visualizations/charts, Word documents (.docx), and presentations (.pptx).
+relevant_roles:
+  - design
+  - marketing
+  - product
+owner: "@BrittanyDiCosimoTR"
 ---
 
 # TR Brand Guidelines Skill

@@ -9,6 +9,11 @@ description: >
   hierarchy (Epic → Feature → User Story → Task) and field structure.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - product
+  - engineering
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: ADO Story Parser — Azure DevOps Work Item Normalisation

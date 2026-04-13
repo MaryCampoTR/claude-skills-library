@@ -9,6 +9,10 @@ description: >
   composition, and complex interaction patterns v0 commonly mishandles.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - engineering
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: v0 Refinement — Diagnosis & Targeted Iteration

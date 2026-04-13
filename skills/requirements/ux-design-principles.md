@@ -10,6 +10,9 @@ description: >
   ux-requirements-synthesizer output before the v0 prompt is written.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: UX Design Principles — Staff Designer Lens

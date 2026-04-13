@@ -10,6 +10,10 @@ description: >
   across multiple products or user types.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - product
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: User Context — Persona & Domain Layer

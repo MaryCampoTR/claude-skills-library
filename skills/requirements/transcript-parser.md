@@ -8,6 +8,11 @@ description: >
   Output feeds directly into the ux-requirements-synthesizer skill.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - product
+  - strategy
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: Transcript Parser — Meeting Notes to Intent Signals

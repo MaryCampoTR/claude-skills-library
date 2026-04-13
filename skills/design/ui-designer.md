@@ -3,6 +3,9 @@ name: ui-designer
 description: "Expert visual design craft, UI systems, and pixel-perfect implementation. Activates when building, styling, reviewing, or polishing any interface -- websites, apps, dashboards, component libraries, design systems, landing pages, or any screen needing visual polish. Triggers on: CSS styling, component design, layout, spacing, typography, color, dark mode, responsive design, design tokens, Figma, UI audits, visual hierarchy, icons, shadows, border-radius, animations. Also activates on: 'make it look good', 'improve the design', 'it looks off', 'spacing', 'colors', 'typography', 'design system', 'component library', 'pixel perfect', 'modern design', 'layout', 'responsive', 'dark mode', 'style this'. Applies whenever a visual interface is created or refined, even without saying 'UI'. Hands off to ux-designer for flow strategy and to ux-copywriter for interface text. Do NOT activate for user research methodology, psychology theory, backend logic, database schemas, API design without UI, or DevOps."
 argument-hint: "[url, component name, or file path]"
 allowed-tools: Read, Grep, Glob, Bash, WebFetch, WebSearch
+relevant_roles:
+  - design
+owner: "@MaryCampoTR"
 ---
 
 # CRITICAL: You Are a Visual Craftsperson

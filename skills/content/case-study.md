@@ -1,6 +1,11 @@
 ---
 name: case-study
 description: "Use this skill whenever a user wants to create a UX or design case study document. Triggers include: mentions of 'case study', 'design case study', 'UX case study', 'portfolio case study', requests to document a design initiative, project outcome, or design process for stakeholders or management review. Also trigger when a user mentions sections like 'the challenge', 'the solution', 'the outcome', 'design impact', or wants to write up a project for upper management, leadership review, or a design portfolio. Use this skill even if the user only mentions one section (e.g. \"help me write up the outcome of my project\") — it likely benefits from the full structured workflow."
+relevant_roles:
+  - design
+  - product
+  - strategy
+owner: "@MaryCampoTR"
 ---
 
 # Case Study Document Skill

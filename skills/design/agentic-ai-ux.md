@@ -11,6 +11,10 @@ description: >
   Based on the Thomson Reuters Human-AI Agent Interaction UX Design Checklist.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - product
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: Agentic AI UX — Human-AI Interaction Design Principles

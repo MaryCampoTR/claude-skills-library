@@ -9,6 +9,11 @@ description: >
   hands.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - product
+  - engineering
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: Spec QA — Pre-Handoff Quality Gate

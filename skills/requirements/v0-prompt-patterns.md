@@ -8,6 +8,10 @@ description: >
   shells. Compose from patterns rather than writing from scratch every time.
 version: 1.0.0
 updated: 2026-03-27
+relevant_roles:
+  - design
+  - engineering
+owner: "@MaryCampoTR"
 ---
 
 # SKILL: v0 Prompt Patterns — Saffron Screen Archetypes
