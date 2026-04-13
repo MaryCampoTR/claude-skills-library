@@ -16,11 +16,16 @@ import yaml
 SKILLS_DIR = "skills"
 README_PATH = "README.md"
 
-CATEGORY_ORDER = ["design", "requirements", "brand"]
+CATEGORY_ORDER = ["admin", "ux", "design", "requirements", "brand", "content"]
 CATEGORY_LABELS = {
     "design":       "🎨 Design",
     "requirements": "📋 Requirements",
+    "admin":        "🗂️ Admin",
+    "ux":           "🖥️ UX",
+    "design":       "🎨 Design",
+    "requirements": "📋 Requirements",
     "brand":        "🏢 Brand",
+    "content":      "📝 Content",
 }
 
 def parse_frontmatter(filepath):
