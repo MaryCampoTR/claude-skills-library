@@ -43,7 +43,6 @@ A shared library of Claude skill files for reuse across teams. Browse the catalo
 | Skill | Description | Relevant Roles | Owner |
 |-------|-------------|---------------|-------|
 | [ado-story-parser](./skills/requirements/ado-story-parser.md) | Normalise Azure DevOps (ADO) work items of varying quality into the ux-requirements-synthesizer intake schema. Use whenever the user provides an ADO w... | #design #product #engineering | @MaryCampoTR |
-| [session-kickoff](./skills/requirements/session-kickoff.md) | Automatically orchestrates a full UX requirements session. Load this skill whenever a user provides any combination of feature context, meeting transc... | #design #product | @MaryCampoTR |
 | [spec-qa](./skills/requirements/spec-qa.md) | Final quality gate for any UX requirements spec before it is handed off to v0, a stakeholder, or a development team. Run after ux-requirements-synthes... | #design #product #engineering | @MaryCampoTR |
 | [transcript-parser](./skills/requirements/transcript-parser.md) | Parse and structure messy meeting transcripts into clean, synthesizer-ready intent signals. Use whenever the user provides a meeting transcript, call ... | #design #product #strategy | @MaryCampoTR |
 | [user-context](./skills/requirements/user-context.md) | Capture and apply user context (persona, role, domain, sophistication level, task environment) before synthesizing requirements. Use at the start of a... | #design #product | @MaryCampoTR |
